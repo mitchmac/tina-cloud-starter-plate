@@ -1,0 +1,17 @@
+---
+label: Article
+name: article
+fields:
+  - type: text
+    label: Title
+    name: title
+  - type: text
+    label: Hero Image
+    name: heroImg
+  - name: author
+    label: Author
+    type: select
+    config:
+      source:
+        type: pages
+        section: authors
