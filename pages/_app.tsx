@@ -17,7 +17,7 @@ const QueryContainer = (props: { query; variables; data; children }) => {
   return props.children({ data });
 };
 
-const branch = "main";
+const branch = "rich-text-alt";
 const apiURL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:4001/graphql"
